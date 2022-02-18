@@ -1,0 +1,25 @@
+{ 
+   "name": "default",
+   "type": "mysql", 
+   "host": "localhost", 
+   "port": 3306, 
+   "username": "root", 
+   "password": "password", 
+   "database": "lendsqr", 
+   "synchronize": true, 
+   "logging": false, 
+   "entities": [
+      "src/database/entities/*{.ts,.js}"
+   ], 
+   "migrations": [ 
+      "dist/migration/**/*.js" 
+   ], 
+   "subscribers": [ 
+      "src/subscriber/**/*{.ts,.js}" 
+   ], 
+   "cli": { 
+      "entitiesDir": "src/database/entity", 
+      "migrationsDir": "src/migration", 
+      "subscribersDir": "src/subscriber" 
+   } 
+}

@@ -8,8 +8,11 @@ npm i
 ### RUN MIGRATIONS
 npm run typeorm migration:run 
 
-### Run APPLICATION IN WATCH MODE
+### RUN APPLICATION IN WATCH MODE
 npm run watch
+
+### RUN TEST IN WATCH MODE
+npm run test
 
 
 APPLICATION RUNNING ON PORT:3000
